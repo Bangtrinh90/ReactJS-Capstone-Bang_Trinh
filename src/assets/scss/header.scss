@@ -1,0 +1,27 @@
+nav {
+    background-color: #000;
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-menu {
+            ul {
+                height: 50px;
+                padding: unset;
+                margin: unset;
+                li {
+                    list-style-type: none;
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: super;
+                    width: 50px;
+                    text-align: center;
+                    a {
+                        height: 50px;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

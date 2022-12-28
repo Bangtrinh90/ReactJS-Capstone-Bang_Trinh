@@ -1,0 +1,10 @@
+import { configureStore } from "@reduxjs/toolkit";
+import productReducer from "./productReducer";
+
+const globalStore = configureStore({
+  reducer: {
+    productData: productReducer,
+  },
+});
+
+export default globalStore;
