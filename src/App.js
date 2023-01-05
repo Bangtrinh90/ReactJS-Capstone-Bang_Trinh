@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Cart from "./components/cart/Cart.jsx";
 import Detail from "./components/detail/Detail.jsx";
 import Home from "./components/home/Home.jsx";
 import Login from "./components/login/Login.jsx";
@@ -14,6 +15,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/detail/:productID" element={<Detail />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>

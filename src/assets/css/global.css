@@ -9,7 +9,7 @@
   padding: 0 20px;
 }
 .item .card-footer-custom {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   height: 50px;
   line-height: 50px;
@@ -19,7 +19,8 @@
   width: 50%;
   text-align: center;
   text-transform: uppercase;
-  background-color: #9DE167;
+  background-color: black;
+  color: white;
 }
 .item .card-footer-custom-right {
   width: 50%;
